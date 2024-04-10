@@ -1,0 +1,17 @@
+.summary-main{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    margin: auto;
+    box-shadow: 10px black;
+    background-color: #3f3f3f;
+    border-radius: 25px;
+    align-items: center;
+    top: -150px;
+    box-shadow: 0px 8px 20px 3px black;
+    color: #ffffff;
+    padding: 0px 10px;
+    height:max-content;
+    text-align: center;
+}

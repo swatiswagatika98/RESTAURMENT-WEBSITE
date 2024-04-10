@@ -1,0 +1,79 @@
+.mealList-main{
+    background-color: #ffffff;
+    border-radius: 25px;
+    width: 60%;
+    margin: auto;
+    padding-top: 5px;
+}
+.mealList {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.mealList h3 {
+  margin: 0 0 0.25rem 0;
+}
+
+.mealList-description {
+  font-style: italic;
+}
+
+.mealList-price {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  color: #ad5502;
+  font-size: 1.25rem;
+}
+
+.mealList-form{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mealList-form > div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.mealList-form > div > input{
+    width: 40px;
+    height: 1.7vmax;
+    outline: none;
+}
+
+.mealList-form > button{
+    background-color: #761f0a;
+    width: 85%;
+    height: 2.5vmax;
+    outline: none;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 750px) {
+.mealList-form > div{
+  display: flex;
+  flex-direction: column;
+}
+
+  .mealList-form > div > input{
+    width: 40px;
+    height: 3vmax;
+}
+.mealList-form > button{
+  width: 55px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 5vmax;
+    margin-top: 10px;
+}
+}
